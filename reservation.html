@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap" rel="stylesheet">
+    <title>Reservation</title> 
+    <link rel="icon" href="/logo2-removebg-preview (1).png" type="image/x-icon" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="main">
+        <div id="fs">
+            <div class="fs1">
+                <h1 class="reveal">Restaurant</h1>
+                <p class="reveal">Copyright &#169; 2023 Restaurant<br> All Rights Reserved</p>
+            </div>
+            <div id="fs2">
+                <h2 class="reveal">ENJOYMENT WITH STYLE</h2>
+                <p class="reveal">A GASTRONOMIC GEM ON THE AARE.</p>
+            </div>
+            <div class="loader,reveal" class="reveal">
+                <div class="square" id="sq1"></div>
+                <div class="square" id="sq2"></div>
+                <div class="square" id="sq3"></div>
+                <div class="square" id="sq4"></div>
+                <div class="square" id="sq5"></div>
+                <div class="square" id="sq6"></div>
+                <div class="square" id="sq7"></div>
+                <div class="square" id="sq8"></div>
+                <div class="square" id="sq9"></div>
+              </div>
+        </div>
+        <div id="element">
+
+        </div>
+        <div id="white"></div>
+            <nav>
+                <div class="nav-links1">
+                    <div><a href="/index.html">Home</a></div>
+                    <div><a href="/menu.html">Menu</a></div>
+                </div>
+            <div class="logo">
+             <img src="/logo.png" alt="">
+            </div>
+            <div class="nav-links2">
+                <div><a href="/location.html">Locations</a></div>
+               <div> <a href="/reservation.html">Reservations</a></div>
+                <div><a href="#foot"><i class="fa fa-phone" style="font-size:24px"></i></a></div>
+            </div>
+        </nav>
+        <main>
+            <h2 class="reveal"> Reserve a Table</h2> <br>
+            <div class="form">
+                <div class="form__group field">
+                    <input type="input" class="form__field" placeholder="Name" required="">
+                    <label for="name" class="form__label">Name</label>
+                </div>
+                <div class="form__group field">
+                    <input type="Date" class="form__field" placeholder="name" required="">
+                    <label for="name" class="form__label">Date</label>
+                </div>
+                <div class="form__group field">
+                    <input type="number" class="form__field" placeholder="Name" required="">
+                    <label for="number" class="form__label">Guest</label>
+                </div>
+                <div class="buttons">
+                    <button onclick="SubmitEvent";>
+                        <span>Book Table</span>
+                        <svg width="34" height="34" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="37" cy="37" r="35.5" stroke="black" stroke-width="3"></circle>
+                            <path d="M25 35.5C24.1716 35.5 23.5 36.1716 23.5 37C23.5 37.8284 24.1716 38.5 25 38.5V35.5ZM49.0607 38.0607C49.6464 37.4749 49.6464 36.5251 49.0607 35.9393L39.5147 26.3934C38.9289 25.8076 37.9792 25.8076 37.3934 26.3934C36.8076 26.9792 36.8076 27.9289 37.3934 28.5147L45.8787 37L37.3934 45.4853C36.8076 46.0711 36.8076 47.0208 37.3934 47.6066C37.9792 48.1924 38.9289 48.1924 39.5147 47.6066L49.0607 38.0607ZM25 38.5L48 38.5V35.5L25 35.5V38.5Z" fill="black"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </main>  
+</div>
+<footer >
+    <div id="foot">
+        062 791 31 51 <br>
+info@laperla-aarburg.ch <br>
+Landhausstrasse 17, 4663 Aarburg
+    </div>
+    <div>
+        OPENING HOURS <br>
+Monday : Closed <br>
+Tuesday – Friday : 11:00 – 14:00, 17:30 – 23:30 <br>
+Saturday : 17:30 – 23:30 <br>
+Sunday : 11:00 – 14:00, 17:30 – 22:00 <br>
+    </div>
+    <div>
+        <b>WE ARE LOOKING FORWARD TO YOUR VISIT!</b>
+    </div>
+    <div>
+        © COPYRIGHT 2023 CUCINA DEL MONDO <BR>
+        ALL RIGHTS RESERVED
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="script.js"></script>
+<script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+    ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
+</body>
+</html>
